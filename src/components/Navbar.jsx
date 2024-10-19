@@ -8,17 +8,17 @@ const Navbar = () => {
         <div className='fixed bottom-0 left-0 w-full '>
             <div className='bg-black px-2 py-4 mx-2 my-2 rounded-xl text-black'>
                 <div className='flex justify-around text-sm '>
-                    <NavLink to='/' className='bg-white flex px-2 py-1 items-center gap-x-1 rounded-lg'>
-                        <img src={homeIcon} alt="" />
+                    <NavLink to='/' className='text-white flex px-2 py-1 items-center gap-x-1 rounded-lg'>
+                        <img src={homeIcon} alt="" className=''/>
                         Home
                     </NavLink>
-                    <NavLink to='profile' className='bg-white flex px-2 py-1 items-center gap-x-1 rounded-lg'>
+                    <NavLink to='profile' className='text-white flex px-2 py-1 items-center gap-x-1 rounded-lg'>
                         <img src="" alt="" />
                         Profile
                     </NavLink>
-                    <NavLink to='vacancy-list' className='bg-white flex px-2 py-1 items-center gap-x-1 rounded-lg'>
+                    <NavLink to='vacancy-list' className='text-white flex px-2 py-1 items-center gap-x-1 rounded-lg'>
                         Vacancy List</NavLink>
-                    <NavLink to='vacancy-response' className='bg-white flex px-2 py-1 items-center gap-x-1 rounded-lg'>Vacancy Response</NavLink>
+                    <NavLink to='vacancy-response' className='text-white flex px-2 py-1 items-center gap-x-1 rounded-lg'>Vacancy Response</NavLink>
                 </div>
             </div>
         </div>

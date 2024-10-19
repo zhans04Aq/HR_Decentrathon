@@ -6,7 +6,6 @@ import jobType from '../assets/icons/job-type.svg'
 import shiftType from '../assets/icons/shift-type.svg'
 
 import TCO from '../assets/icons/TCO.svg'
-import NCOC from '../assets/icons/NCOC.svg'
 
 import {jobData} from '../fakedata/vacancydatas'
 
@@ -96,7 +95,6 @@ const ProfileJobSeeker = () => {
                         <p className='bg-[#D9D9D9] bg-opacity-25 py-28 px-24 rounded-xl whitespace-nowrap'></p>
                         <p className='bg-[#D9D9D9] bg-opacity-25 py-28 px-24 rounded-xl whitespace-nowrap'></p>
                         <p className='bg-[#D9D9D9] bg-opacity-25 py-28 px-24 rounded-xl whitespace-nowrap'></p>
-
                     </div>
             </section>
         </div>
