@@ -1,7 +1,5 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
 
-import homeIcon from '../assets/icons/Home.svg'
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -9,16 +7,18 @@ const Navbar = () => {
             <div className='bg-black px-2 py-4 mx-2 my-2 rounded-xl text-black'>
                 <div className='flex justify-around text-sm '>
                     <NavLink to='/' className='text-white flex px-2 py-1 items-center gap-x-1 rounded-lg'>
-                        <img src={homeIcon} alt="" className=''/>
-                        Home
+                        <p>Home</p>
+                    </NavLink>
+                    <NavLink to='search-job' className='text-white flex px-2 py-1 items-center gap-x-1 rounded-lg'>
+                        <p>Marketplace</p>
+                    </NavLink>
+                    <NavLink to='vacancy-response' className='text-white flex px-2 py-1 items-center gap-x-1 rounded-lg'>
+                        <p>Notifications</p>
                     </NavLink>
                     <NavLink to='profile' className='text-white flex px-2 py-1 items-center gap-x-1 rounded-lg'>
                         <img src="" alt="" />
-                        Profile
+                        <p>Profile</p>
                     </NavLink>
-                    <NavLink to='vacancy-list' className='text-white flex px-2 py-1 items-center gap-x-1 rounded-lg'>
-                        Vacancy List</NavLink>
-                    <NavLink to='vacancy-response' className='text-white flex px-2 py-1 items-center gap-x-1 rounded-lg'>Vacancy Response</NavLink>
                 </div>
             </div>
         </div>

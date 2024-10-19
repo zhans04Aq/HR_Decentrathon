@@ -4,5 +4,9 @@ body{
 
 .active{
     background-color: white;
-    color:black
+    
+}
+
+.active p{
+    color: black;
 }

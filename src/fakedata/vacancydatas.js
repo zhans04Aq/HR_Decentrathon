@@ -1,4 +1,4 @@
-import TCO from '../assets/icons/TCO.svg'
+
 
 export const jobData = [
     {
