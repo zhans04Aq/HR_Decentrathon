@@ -1,7 +1,7 @@
 
 
 import profileSearchIcon from '../assets/icons/profileSearchIcon.svg'
-import arrow from '../assets/icons/arrow.svg'
+import arrowIcon from '../assets/icons/Arrow.svg'
 import jobType from '../assets/icons/job-type.svg'
 import shiftType from '../assets/icons/shift-type.svg'
 
@@ -35,7 +35,7 @@ const ProfileJobSeeker = () => {
                     </h1>
                     <div className='flex items-center gap-x-2' >
                         <p className='text-base'>Choose a Job Type</p>
-                        <img src={arrow} alt="" className='w-3 h-3 mt-1'/>
+                        <img src={arrowIcon} alt="" className='w-3 h-3 mt-1'/>
                     </div>
                     <div className='flex items-center gap-6 overflow-x-auto pb-4'>
                         <p className='bg-[#D9D9D9] bg-opacity-25 py-3 px-4 rounded-xl whitespace-nowrap'>New Job</p>
