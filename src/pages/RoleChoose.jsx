@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 import illustration from '../assets/illustration/People search-rafiki1.svg'
 
 import specialistIcon from '../assets/icons/specialist.svg'
@@ -12,15 +14,15 @@ const RoleChoose = () => {
             <div className='flex flex-col items-center relative gap-y-10'>
                 <h1 className='font-semibold text-3xl text-center text-white w-3/4'>Are you a job-seeker or an employer?</h1>
                 <div className='text-[#2E00D7] flex gap-x-4 items-center justify-center'>
-                    <button className='flex items-center px-8 py-2 gap-x-4 bg-white rounded-lg'>
+                    <Link to='/' className='flex items-center px-8 py-2 gap-x-4 bg-white rounded-lg'>
                         <img src={specialistIcon} alt="" />
                         <p className=''>Specialist</p>
-                    </button>
+                    </Link>
                     <p className='text-white'>or</p>
-                    <button className='flex items-center px-8 py-2 gap-x-4 bg-white rounded-lg'>
+                    <Link to='/' className='flex items-center px-8 py-2 gap-x-4 bg-white rounded-lg'>
                         <img src={companyIcon} alt="" className=''/>
                         <p className=''>Company</p>
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>

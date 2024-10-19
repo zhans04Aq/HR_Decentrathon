@@ -18,7 +18,7 @@ const Intro = ({ onProceed }) => {
     }
 
     return (
-    <div className="flex justify-center flex-col items-center h-screen">
+    <div className="flex justify-center flex-col items-center h-screen p-1">
         {
             sliderCounter == 1? <FirstSlider/> : <></>
         }        {
