@@ -11,6 +11,7 @@ import Intro from './pages/Intro'
 
 // components
 import Layout from './components/Layout'
+import RoleChoose from './pages/RoleChoose'
 
 function App() {
   const [showIntro, setShowIntro] = useState(true); 
@@ -18,7 +19,7 @@ function App() {
 
   const handleProceed = () => {
     setShowIntro(false);
-    navigate('/'); 
+    navigate('role'); 
   };
 
   return (
@@ -28,6 +29,7 @@ function App() {
         <Intro onProceed={handleProceed} />
       ) : (
         <Routes>
+          <Route path='role' element={<RoleChoose/>}/>
           <Route path='/' element={<Layout />}>
             <Route index element={<Home />} />
             <Route path='profile' element={<Profile />} />
