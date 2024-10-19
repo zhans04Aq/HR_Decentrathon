@@ -1,7 +1,6 @@
 import React from 'react';
 
 import slideIllustration from '../../assets/illustration/Illustration No. 2.svg'
-
 const SecondSlider = () => {
     return (
         <div className='flex flex-col gap-y-3 items-center my-5'>

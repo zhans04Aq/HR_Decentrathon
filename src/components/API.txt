@@ -1,5 +1,0 @@
-https://bitech-api.vercel.app/
-
-https://bitech-api.vercel.app/api/data 
-
-https://bitech-api.vercel.app/api/
