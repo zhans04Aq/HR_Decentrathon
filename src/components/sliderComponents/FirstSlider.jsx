@@ -5,10 +5,8 @@ const FirstSlider = () => {
         <div className='flex justify-center gap-y-36 flex-col items-center h-screen'>
             <div className="absolute w-1/3 top-12 right-36">
                 <div className="flex justify-between">
-                    <div className="rotate-[7.37deg] w-11 h-80  round rounded-tl-3xl rounded-br-3xl
-                    bg-gradient-to-b opacity-30 
-                    from-[#D9D9D9] to-[#737373]"></div>
-                    <div className="relative bottom-10 rotate-[187.37deg] w-11 h-80 bg-white rounded-bl-3xl rounded-tr-3xl bg-gradient-to-b opacity-30
+                    <div className="rotate-[7.37deg] w-11 h-80 rounded-tl-3xl rounded-br-3xl bg-gradient-to-b opacity-30 from-[#D9D9D9] to-[#737373]"></div>
+                    <div className="relative left-5 bottom-10 rotate-[187.37deg] w-11 h-80 bg-white rounded-bl-3xl rounded-tr-3xl bg-gradient-to-b opacity-30
                     from-[#D9D9D9] to-[#737373]"></div>
                 </div>
             </div>
